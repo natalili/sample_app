@@ -60,12 +60,7 @@ describe SessionsController do
     end
 
     
-    describe "success" do
-        it "should sign the user in" do
-        post :create, :session => @attr
-        controller.should be_signed_in
-      end
-    end
+    
   end
 
 
